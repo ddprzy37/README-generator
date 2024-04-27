@@ -38,8 +38,9 @@ This project is licensed under the ${license} license.`
 
 
 //  function to generate markdown for README
-function generateMarkdown(data, licenseBadge) {
+function generateMarkdown(data, licenseBadge, answers) {
   const licenseSection = renderLicenseSection(data.license); // Generate license section
+  const { indexRequired, motivation, problems, solve, learn, standOut } = answers; // Destructure user's answers
   return `# ${data.title}
 
 ${licenseBadge}
@@ -47,6 +48,15 @@ ${licenseBadge}
 ## Description
 
 ${data.description}
+
+## User Answers
+
+- Index Required: ${indexRequired}
+- Motivation: ${motivation}
+- Problems: ${problems}
+- Solve: ${solve}
+- Learn: ${learn}
+- Stand Out: ${standOut}
 
 ${licenseSection}
 `;
