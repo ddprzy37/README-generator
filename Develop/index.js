@@ -12,37 +12,48 @@ function writeToFile(fileName, content) {
 
 // Creats an array of questions for user input
 const questions = [
-    {
-        type: 'confirm',
-        name: 'indexRequired',
-        message: 'Does your project require an index file?',
-        default: true 
-    },
-    {
-        type: 'input',
-        name: 'motivation',
-        message: 'What was the motivation for this project?'
-    },
+    // {
+    //     type: 'confirm',
+    //     name: 'indexRequired',
+    //     message: 'Does your project require an index file?',
+    //     default: true 
+    // },
     {
         type: 'input',
-        name: 'problems',
-        message: 'What problems did you face when building this project?'  
+        name: 'title',
+        message: 'What is the title of your project?',
     },
     {
-        type: 'input',
-        name: 'solve',
-        message: 'What does this project solve?'
+        type: 'list',
+        name: 'license',
+        message: 'What license is used?',
+        choices: ['MIT', 'Apache 2.0', 'GNU GPLv3', 'BSD 3-Clause']
     },
-    {
-        type: 'input',
-        name: 'learn',
-        message: 'What did you learn making this project?'
-    },
-    {
-        type: 'input',
-        name: 'stand out',
-        message: 'What makes your project stand out?'
-    }
+    // {
+    //     type: 'input',
+    //     name: 'motivation',
+    //     message: 'What was the motivation for this project?'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'problems',
+    //     message: 'What problems did you face when building this project?'  
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'solve',
+    //     message: 'What does this project solve?'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'learn',
+    //     message: 'What did you learn making this project?'
+    // },
+    // {
+    //     type: 'input',
+    //     name: 'stand out',
+    //     message: 'What makes your project stand out?'
+    // }
 ];
 
 // Function to initialize app
@@ -53,9 +64,6 @@ function init() {
         .then((answers) => {
             // Sample data with user answers
             const data = {
-                title: 'Sample Project',
-                description: 'This is a sample project description.',
-                license: 'Apache 2.0',
                 ...answers // Merge user answers into the data object
             };
             // Generate markdown content based on the user's answers

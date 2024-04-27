@@ -1,20 +1,24 @@
-# Sample Project
+# titltle
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
 
-This is a sample project description.
-
-## User Answers
-
 - Index Required: false
-- Motivation: To be able to produce a professional readme file on demand.
-- Problems: Making sure the markdown was generated correctly.
-- Solve: Provides on demand read me files.
-- Learn: how to use modular exports better.
+- Motivation: undefined
+- Problems: undefined
+- Solve: undefined
+- Learn: undefined
 - Stand Out: undefined
+
+## Table of contents
+
+## Installation
+
+## Usage
+
+## Credits
 
 ## License
 
-This project is licensed under the Apache 2.0 license.
+This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0).
