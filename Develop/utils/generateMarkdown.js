@@ -37,11 +37,17 @@ This project is licensed under the ${license} license.`
 }
 
 //  function to generate markdown for README
-function generateMarkdown(data) {
-  const licenseBadge = renderLicenseBadge(data.license);
+function generateMarkdown(data, licenseBadge) {
+  const licenseSection = renderLicenseSection(data.license); // Generate license section
   return `# ${data.title}
 
 ${licenseBadge}
+
+## Description
+
+${data.description}
+
+${licenseSection}
 `;
 }
 
