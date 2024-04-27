@@ -17,7 +17,7 @@ function init() {}
 
 // Function call to initialize app
 init();
-
+// Sample to check functionality
 const data = {
     title: 'Sample Project',
     description: 'This is a sample project description.',
