@@ -21,6 +21,6 @@ init();
 const data = {
     title: 'Sample Project',
     description: 'This is a sample project description.',
-    license: 'MIT'
+    license: 'Apache 2.0'
 };
 writeToFile('README.md', data)
