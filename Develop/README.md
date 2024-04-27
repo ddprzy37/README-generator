@@ -9,10 +9,10 @@ This is a sample project description.
 ## User Answers
 
 - Index Required: false
-- Motivation: f
-- Problems: f
-- Solve: f
-- Learn: f
+- Motivation: To be able to produce a professional readme file on demand.
+- Problems: Making sure the markdown was generated correctly.
+- Solve: Provides on demand read me files.
+- Learn: how to use modular exports better.
 - Stand Out: undefined
 
 ## License
