@@ -25,6 +25,17 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'repo',
+        message: 'Please enter the repo and file name like so: github_username/repo_name'
+    },
+    {
+        type: 'checkbox',
+        name: 'builtWith',
+        message: 'Please select all software used to build this project.',
+        choices: ['Next', 'React', 'Vue', 'Angular', 'Svelte','Laravel','Bootsrap','JQuery']
+    },
+    {
+        type: 'input',
         name: 'description',
         message: 'Please provide a description of this project.'
     },
@@ -54,22 +65,16 @@ const questions = [
         message: 'What makes your project stand out?'
     }
 ];
-
-// Function to initialize app
 function init() {
     // Prompt the user with questions using inquirer
     inquirer
         .prompt(questions)
         .then((answers) => {
-            console.log(answers);
-            // Sample data with user answers
-            const data = {
-                ...answers // Merge user answers into the data object
-            };
-            // Generate markdown content based on the user's answers
-            const licenseBadge = generateMarkdown.renderLicenseBadge(data.license);
-            const content = generateMarkdown.generateMarkdown(data, licenseBadge, answers); // Pass answers to generateMarkdown
-            // Call the writeToFile function to write the README file
+            console.log(answers); // Log the answers object
+            const selectedTechnologies = answers.builtWith;
+            console.log(selectedTechnologies);
+            const licenseBadge = generateMarkdown.renderLicenseBadge(answers.license);
+            const content = generateMarkdown.generateMarkdown(answers, licenseBadge); // Pass 'answers' directly
             writeToFile('README.md', content);
         })
         .catch((error) => {
@@ -77,6 +82,6 @@ function init() {
         });
 }
 
-
 // Function call to initialize app
 init();
+

@@ -50,14 +50,40 @@ This project is licensed under the [BSD 3-Clause License](https://opensource.org
       return '';
   }
 }
+function generateBuiltWithSection(technologies) {
+  const technologyUrls = {
+    Next: 'https://nextjs.org/',
+    React: 'https://reactjs.org/',
+    Vue: 'https://vuejs.org/',
+    Angular: 'https://angular.io/',
+    Svelte: 'https://svelte.dev/',
+    Laravel: 'https://laravel.com/',
+    Bootstrap: 'https://getbootstrap.com/',
+    JQuery: 'https://jquery.com/'
+  };
+
+  let builtWithSection = '### Built With\n\n';
+
+  technologies.forEach(tech => {
+    if (technologyUrls.hasOwnProperty(tech)) {
+      builtWithSection += `* [${tech}](${technologyUrls[tech]})\n`;
+    }
+  });
+
+  return builtWithSection;
+}
+
+// const selectedTechnologies = answers.builtWith; // Assign user input to selectedTechnologies
 
 // Function to generate markdown for README
-function generateMarkdown(data, licenseBadge, answers) {
-  const { motivation, problems, solve, learn, standOut, description, license } = answers; // Destructure user's answers
+function generateMarkdown(data, licenseBadge) {
+  // Destructure properties directly from the 'data' object
+  const { repo, motivation, problems, solve, learn, standOut, description, license, builtWith } = data;
 
   // Generate license section dynamically based on user's choice
   const licenseSection = license ? `## License\n\nThis project is licensed under the [${license} License](${renderLicenseLink(license)}).` : '';
-
+  const builtWithSection = generateBuiltWithSection(builtWith); // Use 'builtWith' from 'data'
+  console.log(builtWithSection);
   return `# ${data.title}
 
 ${licenseBadge}
@@ -72,23 +98,23 @@ ${licenseBadge}
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/${repo}">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">${data.title}</h3>
 
   <p align="center">
-    project_description
+    ${data.description}
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/${repo}/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/${repo}/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/${repo}/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/${repo}/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -104,16 +130,7 @@ ${description}
 
 [![Product Name Screen Shot](./images/screenshot.png)](https://example.com)
 
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+${builtWithSection}
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +172,7 @@ To get a local copy up and running follow these simple example steps.
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    \`\`\`sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/${repo}.git
    \`\`\`
 3. Install NPM packages
    \`\`\`sh
@@ -183,7 +200,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/${repo}/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,7 +211,7 @@ ${licenseSection}
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/${repo}](https://github.com/${repo})
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,9 +220,11 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 }
 
 
+
 module.exports = {
   renderLicenseBadge,
   generateMarkdown,
   renderLicenseLink,
-  renderLicenseSection
+  renderLicenseSection,
+  generateBuiltWithSection
 };

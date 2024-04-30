@@ -1,6 +1,6 @@
-# This is a professional README
+# Title
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <a name="readme-top"></a>
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -12,49 +12,42 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/ddprzy37/README-generator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Title</h3>
 
   <p align="center">
-    project_description
+    d
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ddprzy37/README-generator/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/ddprzy37/README-generator/">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/ddprzy37/README-generator/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/ddprzy37/README-generator/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
 ## Description
 
-This is a mock version of a professional read me file.
+d
 
-- Motivation: To have a file that generates README on demand.
-- Problems: Passing objects
-- Solve: The struggle to have a professional README
-- Learn: I learned how to write files that create files.
-- Stand Out: This stands out because of its elegancy and cleanliness.
+- Motivation: d
+- Problems: d
+- Solve: d
+- Learn: d
+- Stand Out: d
 
 [![Product Name Screen Shot](./images/screenshot.png)](https://example.com)
 
-
 ### Built With
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [Next](https://nextjs.org/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +89,7 @@ To get a local copy up and running follow these simple example steps.
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/ddprzy37/README-generator.git
    ```
 3. Install NPM packages
    ```sh
@@ -124,20 +117,20 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ddprzy37/README-generator/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 
-This project is licensed under the [Apache 2.0 License]([Apache License 2.0](https://opensource.org/licenses/Apache-2.0)).
+This project is licensed under the [MIT License]([MIT License](https://opensource.org/licenses/MIT)).
 
 
 ## Contact
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/ddprzy37/README-generator](https://github.com/ddprzy37/README-generator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
