@@ -102,7 +102,7 @@ ${description}
 - Learn: ${learn}
 - Stand Out: ${standOut}
 
-[![Product Name Screen Shot](https://example.com/screenshot.png)](https://example.com)
+[![Product Name Screen Shot](./images/screenshot.png)](https://example.com)
 
 ### Built With
 

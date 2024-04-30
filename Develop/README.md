@@ -42,7 +42,8 @@ This is a mock version of a professional read me file.
 - Learn: I learned how to write files that create files.
 - Stand Out: This stands out because of its elegancy and cleanliness.
 
-[![Product Name Screen Shot](https://example.com/screenshot.png)](https://example.com)
+[![Product Name Screen Shot](./images/screenshot.png)](https://example.com)
+
 
 ### Built With
 
