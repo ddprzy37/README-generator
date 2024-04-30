@@ -29,6 +29,11 @@ const questions = [
         message: 'What license is used?',
         choices: ['MIT', 'Apache 2.0', 'GNU GPLv3', 'BSD 3-Clause']
     },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Please provide a description of this project.'
+    },
     // {
     //     type: 'input',
     //     name: 'motivation',
