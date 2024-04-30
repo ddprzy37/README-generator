@@ -12,12 +12,6 @@ function writeToFile(fileName, content) {
 
 // Creats an array of questions for user input
 const questions = [
-    // {
-    //     type: 'confirm',
-    //     name: 'indexRequired',
-    //     message: 'Does your project require an index file?',
-    //     default: true 
-    // },
     {
         type: 'input',
         name: 'title',
@@ -34,31 +28,31 @@ const questions = [
         name: 'description',
         message: 'Please provide a description of this project.'
     },
-    // {
-    //     type: 'input',
-    //     name: 'motivation',
-    //     message: 'What was the motivation for this project?'
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'problems',
-    //     message: 'What problems did you face when building this project?'  
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'solve',
-    //     message: 'What does this project solve?'
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'learn',
-    //     message: 'What did you learn making this project?'
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'stand out',
-    //     message: 'What makes your project stand out?'
-    // }
+    {
+        type: 'input',
+        name: 'motivation',
+        message: 'What was the motivation for this project?'
+    },
+    {
+        type: 'input',
+        name: 'problems',
+        message: 'What problems did you face when building this project?'  
+    },
+    {
+        type: 'input',
+        name: 'solve',
+        message: 'What does this project solve?'
+    },
+    {
+        type: 'input',
+        name: 'learn',
+        message: 'What did you learn making this project?'
+    },
+    {
+        type: 'input',
+        name: 'standOut',
+        message: 'What makes your project stand out?'
+    }
 ];
 
 // Function to initialize app
@@ -67,6 +61,7 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answers) => {
+            console.log(answers);
             // Sample data with user answers
             const data = {
                 ...answers // Merge user answers into the data object

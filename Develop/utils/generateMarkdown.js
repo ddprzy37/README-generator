@@ -53,7 +53,7 @@ This project is licensed under the [BSD 3-Clause License](https://opensource.org
 
 // Function to generate markdown for README
 function generateMarkdown(data, licenseBadge, answers) {
-  const { indexRequired, motivation, problems, solve, learn, standOut, description, license } = answers; // Destructure user's answers
+  const { motivation, problems, solve, learn, standOut, description, license } = answers; // Destructure user's answers
 
   // Generate license section dynamically based on user's choice
   const licenseSection = license ? `## License\n\nThis project is licensed under the [${license} License](${renderLicenseLink(license)}).` : '';
@@ -95,12 +95,29 @@ ${licenseBadge}
 ## Description
 
 ${description}
-${indexRequired}
+
 - Motivation: ${motivation}
 - Problems: ${problems}
 - Solve: ${solve}
 - Learn: ${learn}
 - Stand Out: ${standOut}
+
+[![Product Name Screen Shot](https://example.com/screenshot.png)](https://example.com)
+
+### Built With
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following:
 
 ## Table of contents
 <!-- TABLE OF CONTENTS -->
@@ -151,7 +168,6 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Back to Top](#readme-top)
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -173,7 +189,6 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 ${licenseSection}
 
-[Back to Top](<a href="#readme-top"> TOP </a>)
 
 ## Contact
 

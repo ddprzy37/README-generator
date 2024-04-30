@@ -1,6 +1,6 @@
-# Title
+# This is a professional README
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <a name="readme-top"></a>
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -31,15 +31,33 @@
     <a href="https://github.com/github_username/repo_name/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
+
 ## Description
 
-This is a description
-undefined
-- Motivation: undefined
-- Problems: undefined
-- Solve: undefined
-- Learn: undefined
-- Stand Out: undefined
+This is a mock version of a professional read me file.
+
+- Motivation: To have a file that generates README on demand.
+- Problems: Passing objects
+- Solve: The struggle to have a professional README
+- Learn: I learned how to write files that create files.
+- Stand Out: This stands out because of its elegancy and cleanliness.
+
+[![Product Name Screen Shot](https://example.com/screenshot.png)](https://example.com)
+
+### Built With
+
+* [![Next][Next.js]][Next-url]
+* [![React][React.js]][React-url]
+* [![Vue][Vue.js]][Vue-url]
+* [![Angular][Angular.io]][Angular-url]
+* [![Svelte][Svelte.dev]][Svelte-url]
+* [![Laravel][Laravel.com]][Laravel-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following:
 
 ## Table of contents
 <!-- TABLE OF CONTENTS -->
@@ -90,7 +108,6 @@ To get a local copy up and running follow these simple example steps.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Back to Top](#readme-top)
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -110,15 +127,10 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[Back to Top](#readme-top)
-
-
-[Back to Top](#readme-top)
 ## License
 
-This project is licensed under the [MIT License]([MIT License](https://opensource.org/licenses/MIT)).
+This project is licensed under the [Apache 2.0 License]([Apache License 2.0](https://opensource.org/licenses/Apache-2.0)).
 
-[Back to Top](<a href="#readme-top"> TOP </a>)
 
 ## Contact
 
