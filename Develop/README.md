@@ -1,4 +1,4 @@
-# Title
+# 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <a name="readme-top"></a>
@@ -12,41 +12,41 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/ddprzy37/README-generator">
+  <a href="https://github.com/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Title</h3>
+<h3 align="center"></h3>
 
   <p align="center">
-    d
+    
     <br />
-    <a href="https://github.com/ddprzy37/README-generator/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com//"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ddprzy37/README-generator/">View Demo</a>
+    <a href="https://github.com//">View Demo</a>
     ·
-    <a href="https://github.com/ddprzy37/README-generator/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com//issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/ddprzy37/README-generator/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com//issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
 ## Description
 
-d
 
-- Motivation: d
-- Problems: d
-- Solve: d
-- Learn: d
-- Stand Out: d
+
+- Motivation: 
+- Problems: 
+- Solve: 
+- Learn: 
+- Stand Out: 
 
 [![Product Name Screen Shot](./images/screenshot.png)](https://example.com)
 
 ### Built With
 
-* [Next](https://nextjs.org/)
+* [![Next](https://img.shields.io/badge/Next-blue.svg)](https://nextjs.org/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -89,7 +89,7 @@ To get a local copy up and running follow these simple example steps.
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/ddprzy37/README-generator.git
+   git clone https://github.com/.git
    ```
 3. Install NPM packages
    ```sh
@@ -117,7 +117,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/ddprzy37/README-generator/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com//issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +130,7 @@ This project is licensed under the [MIT License]([MIT License](https://opensourc
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/ddprzy37/README-generator](https://github.com/ddprzy37/README-generator)
+Project Link: [https://github.com/](https://github.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

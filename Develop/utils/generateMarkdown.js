@@ -52,26 +52,30 @@ This project is licensed under the [BSD 3-Clause License](https://opensource.org
 }
 function generateBuiltWithSection(technologies) {
   const technologyUrls = {
-    Next: 'https://nextjs.org/',
-    React: 'https://reactjs.org/',
-    Vue: 'https://vuejs.org/',
-    Angular: 'https://angular.io/',
-    Svelte: 'https://svelte.dev/',
-    Laravel: 'https://laravel.com/',
-    Bootstrap: 'https://getbootstrap.com/',
-    JQuery: 'https://jquery.com/'
+      Next: 'https://nextjs.org/',
+      React: 'https://reactjs.org/',
+      Vue: 'https://vuejs.org/',
+      Angular: 'https://angular.io/',
+      Svelte: 'https://svelte.dev/',
+      Laravel: 'https://laravel.com/',
+      Bootstrap: 'https://getbootstrap.com/',
+      JQuery: 'https://jquery.com/'
   };
 
   let builtWithSection = '### Built With\n\n';
-
+  
   technologies.forEach(tech => {
-    if (technologyUrls.hasOwnProperty(tech)) {
-      builtWithSection += `* [${tech}](${technologyUrls[tech]})\n`;
-    }
+      if (technologyUrls.hasOwnProperty(tech)) {
+          const badgeUrl = `https://img.shields.io/badge/${tech}-blue`;
+          builtWithSection += `* [![${tech}](${badgeUrl}.svg)](${technologyUrls[tech]})\n`;
+      }
   });
 
   return builtWithSection;
 }
+
+
+
 
 // const selectedTechnologies = answers.builtWith; // Assign user input to selectedTechnologies
 
