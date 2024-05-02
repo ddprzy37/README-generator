@@ -19,7 +19,7 @@
 <h3 align="center">Professional README</h3>
 
   <p align="center">
-    This allows users to create on demand README
+    This allows users to create on demand README files
     <br />
     <a href="https://github.com/ddprzy37/README-generator/"><strong>Explore the docs »</strong></a>
     <br />
@@ -34,19 +34,19 @@
 
 ## Description
 
-This allows users to create on demand README
+This allows users to create on demand README files
 
-- Motivation: This project helps save time for developers to build README files.
-- Problems: Learning how to do the module exports was difficult.
-- Solve: This allows developers to save time building a professional README.
-- Learn: I learned how to properly call functions better and how to pass objects betters.
-- Stand Out: This project stands out because it saves time and is elequently built.
+- Motivation: Save time for developers 
+- Problems: Modeule exports was difficult getting the information to pass correctly.
+- Solve: Solves the process of building a README file for projects.
+- Learn: I learned how to propercly call functions better and pass object more efficiently.
+- Stand Out: This stands out because it allows the user to save time writing README files.
 
 [![Product Name Screen Shot](./images/screenshot.png)](https://example.com)
 
 ### Built With
 
-* [![React](https://img.shields.io/badge/React-blue.svg)](https://reactjs.org/)
+* [![Vue](https://img.shields.io/badge/Vue-blue.svg)](https://vuejs.org/)
 * [![Svelte](https://img.shields.io/badge/Svelte-blue.svg)](https://svelte.dev/)
 
 
