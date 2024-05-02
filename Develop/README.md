@@ -1,6 +1,6 @@
-# 
+# Professional README
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 <a name="readme-top"></a>
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -12,41 +12,42 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/">
+  <a href="https://github.com/ddprzy37/README-generator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center"></h3>
+<h3 align="center">Professional README</h3>
 
   <p align="center">
-    
+    This allows users to create on demand README
     <br />
-    <a href="https://github.com//"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ddprzy37/README-generator/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com//">View Demo</a>
+    <a href="https://github.com/ddprzy37/README-generator/">View Demo</a>
     ·
-    <a href="https://github.com//issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/ddprzy37/README-generator/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com//issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/ddprzy37/README-generator/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
 ## Description
 
+This allows users to create on demand README
 
-
-- Motivation: 
-- Problems: 
-- Solve: 
-- Learn: 
-- Stand Out: 
+- Motivation: This project helps save time for developers to build README files.
+- Problems: Learning how to do the module exports was difficult.
+- Solve: This allows developers to save time building a professional README.
+- Learn: I learned how to properly call functions better and how to pass objects betters.
+- Stand Out: This project stands out because it saves time and is elequently built.
 
 [![Product Name Screen Shot](./images/screenshot.png)](https://example.com)
 
 ### Built With
 
-* [![Next](https://img.shields.io/badge/Next-blue.svg)](https://nextjs.org/)
+* [![React](https://img.shields.io/badge/React-blue.svg)](https://reactjs.org/)
+* [![Svelte](https://img.shields.io/badge/Svelte-blue.svg)](https://svelte.dev/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -89,7 +90,7 @@ To get a local copy up and running follow these simple example steps.
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/.git
+   git clone https://github.com/ddprzy37/README-generator.git
    ```
 3. Install NPM packages
    ```sh
@@ -117,20 +118,20 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com//issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/ddprzy37/README-generator/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## License
 
-This project is licensed under the [MIT License]([MIT License](https://opensource.org/licenses/MIT)).
+This project is licensed under the [GNU GPLv3 License]([GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0)).
 
 
 ## Contact
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/](https://github.com/)
+Project Link: [https://github.com/ddprzy37/README-generator](https://github.com/ddprzy37/README-generator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
